@@ -2,7 +2,7 @@ FROM ubuntu:15.04
 MAINTAINER nahidul kibria <nahidupa@gmail.com>
 
 RUN apt-get update \
- && apt-get install -y python2.7 git build-essential
+ && apt-get install -y python2.7 python-dev git build-essential
 
 #grab oracle java (auto accept licence)
 RUN apt-get install -y software-properties-common && \
