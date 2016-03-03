@@ -25,7 +25,7 @@ WORKDIR /opt
 RUN git clone https://github.com/ajinabraham/Mobile-Security-Framework-MobSF.git
 
 WORKDIR /opt/Mobile-Security-Framework-MobSF
-pip install -r requirements.txt
+RUN pip install -r requirements.txt
 
 EXPOSE 8000
 
