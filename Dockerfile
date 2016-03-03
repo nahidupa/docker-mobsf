@@ -22,7 +22,7 @@ RUN python2.7 get-pip.py
 # Do following install tasks in /opt
 WORKDIR /opt
 
-git clone https://github.com/ajinabraham/Mobile-Security-Framework-MobSF.git
+RUN git clone https://github.com/ajinabraham/Mobile-Security-Framework-MobSF.git
 
 WORKDIR /opt/Mobile-Security-Framework-MobSF
 pip install -r requirements.txt
